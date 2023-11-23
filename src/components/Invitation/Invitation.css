@@ -1,0 +1,23 @@
+.invitation {
+  min-height: 100vh;
+  background-color: var(--constant-grey);
+}
+
+.invitation__title {
+  color: var(--constant-accent);
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.invitation__p {
+  color: var(--constant-font);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.invitation__span {
+  color: var(--constant-accent);
+  font-weight: 700;
+}

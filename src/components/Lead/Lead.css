@@ -1,0 +1,38 @@
+.lead {
+  min-height: 100vh;
+  color: var(--constant-grey);
+  overflow: hidden;
+  position: relative;
+}
+.lead__title {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  color: var(--constant-white-alpha12);
+  animation: slideLeft 10s linear infinite alternate;
+  gap: 0;
+}
+.lead__span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 50vh;
+  line-height: 50vh;
+  font-weight: 900;
+}
+.lead__p {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.lead__button-container {
+  z-index: 2;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: rotate(-45deg) translateX(30%);
+  }
+  100% {
+    transform: rotate(-45deg) translateX(-30%);
+  }
+}

@@ -1,0 +1,45 @@
+.team {
+  min-height: 100vh;
+  color: var(--constant-grey);
+  gap: 20px;
+}
+
+.team__title {
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.team__card {
+  width: 100%;
+  max-width: 300px;
+  gap: 8px;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.team__card:first-of-type .image-container {
+  background-image: url(../../assets/2289_SkVNQSBGQU1PIDEwMjgtMTEx.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.team__card:last-of-type .image-container {
+  background-image: url(../../assets/businessman-icon-image-male-avatar-profile-vector-glasses-beard-hairstyle-179728610.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.team__card-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.team__card-contact {
+  font-size: 12px;
+  font-weight: 200;
+}

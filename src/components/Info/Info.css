@@ -1,0 +1,50 @@
+.info {
+  min-height: 100vh;
+  padding: 10px;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.info__title {
+  color: var(--constant-grey);
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.info__subtitle {
+  color: var(--constant-grey);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.swiper {
+  width: 100%;
+  height: calc(100vh - 400px);
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__card {
+  text-align: center;
+  margin: 0 auto;
+  width: 290px;
+  padding: 20px;
+  background-color: var(--constant-grey);
+  color: var(--constant-font);
+  border-radius: 8px;
+  font-size: 16px;
+  background-image: url(../../assets//bg-eagle.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: 700;
+  box-shadow: 0 0 4px 4px var(--constant-white-alpha64);
+}
