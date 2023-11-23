@@ -16,8 +16,11 @@ export const Article = (props) => {
 
   return (
     <article className="news__card" onClick={toggleFullText}>
-      <img className="news__card-image" src={photo} alt="" />
-      <h3 className="news__card-title">{title}</h3>
+      <div className="news__card-image-wrapper">
+        <img className="news__card-image" src={photo} alt="" />
+        <div className="news__card-gradient"></div>
+        <h3 className="news__card-title">{title}</h3>
+      </div>
       <p className={`news__card-p ${showFullText ? "" : "line-clamp"}`}>
         {firstParagraph}
       </p>
