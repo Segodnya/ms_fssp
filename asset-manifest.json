@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ms_fssp/static/css/main.035384db.css",
-    "main.js": "/ms_fssp/static/js/main.8dba8247.js",
+    "main.css": "/ms_fssp/static/css/main.db3c3fd5.css",
+    "main.js": "/ms_fssp/static/js/main.f908952c.js",
     "static/media/2289_SkVNQSBGQU1PIDEwMjgtMTEx.jpg": "/ms_fssp/static/media/2289_SkVNQSBGQU1PIDEwMjgtMTEx.e162dc71f7925b8bc64b.jpg",
     "static/media/2023-11-23 13.31.46.jpg": "/ms_fssp/static/media/2023-11-23 13.31.46.612c2424f9e0973b6583.jpg",
     "static/media/2023-11-23 13.18.52.jpg": "/ms_fssp/static/media/2023-11-23 13.18.52.07447e26e4acad6ca648.jpg",
     "static/media/bg-eagle.png": "/ms_fssp/static/media/bg-eagle.7df3d7f95ed6b9d3fe7e.png",
     "static/media/businessman-icon-image-male-avatar-profile-vector-glasses-beard-hairstyle-179728610.webp": "/ms_fssp/static/media/businessman-icon-image-male-avatar-profile-vector-glasses-beard-hairstyle-179728610.1a483d63dae75f2b4a54.webp",
     "index.html": "/ms_fssp/index.html",
-    "main.035384db.css.map": "/ms_fssp/static/css/main.035384db.css.map",
-    "main.8dba8247.js.map": "/ms_fssp/static/js/main.8dba8247.js.map"
+    "main.db3c3fd5.css.map": "/ms_fssp/static/css/main.db3c3fd5.css.map",
+    "main.f908952c.js.map": "/ms_fssp/static/js/main.f908952c.js.map"
   },
   "entrypoints": [
-    "static/css/main.035384db.css",
-    "static/js/main.8dba8247.js"
+    "static/css/main.db3c3fd5.css",
+    "static/js/main.f908952c.js"
   ]
 }
