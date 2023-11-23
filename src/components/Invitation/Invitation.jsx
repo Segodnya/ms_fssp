@@ -17,7 +17,7 @@ export function Invitation() {
         </li>
         <li className="flex-col invitation__row">
           <PhoneOutlined />
-          <phone>8 (498) 568-98-30 (доб. 1298, 1299)</phone>
+          <p>8 (498) 568-98-30 (доб. 1298, 1299)</p>
         </li>
         <li className="flex-col invitation__row">
           <MailOutlined />

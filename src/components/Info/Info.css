@@ -1,8 +1,9 @@
 .info {
   min-height: 100dvh;
-  padding: 10px;
-  gap: 16px;
+  padding: 60px 10px;
+  gap: 24px;
   box-sizing: border-box;
+  justify-content: flex-start;
 }
 
 .info__title {
@@ -19,32 +20,100 @@
   text-align: center;
 }
 
-.swiper {
+.wrapper {
   width: 100%;
-  height: calc(100dvh - 400px);
-  padding: 8px;
-  box-sizing: border-box;
+  min-height: 600px;
 }
 
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.info__cards {
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 16px;
+  position: relative;
+  flex-shrink: 1;
+  min-height: 400px;
 }
 
 .info__card {
+  bottom: 0;
+  position: absolute;
   text-align: center;
   margin: 0 auto;
-  width: 290px;
+  width: 100%;
+  max-width: 360px;
+  min-height: 160px;
   padding: 20px;
   background-color: var(--constant-grey);
   color: var(--constant-font);
   border-radius: 8px;
   font-size: 16px;
-  background-image: url(../../assets//bg-eagle.png);
+  background-image: url(../../assets/images/bg-eagle.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   font-weight: 700;
   box-shadow: 0 0 4px 4px var(--constant-white-alpha64);
+  opacity: 0;
+  will-change: transform, opacity;
+  animation: vertical 18s linear infinite;
+}
+
+.info__card:nth-child(1) {
+  animation-delay: calc(3s * -1);
+}
+
+.info__card:nth-child(2) {
+  animation-delay: calc(3s * 0);
+}
+
+.info__card:nth-child(3) {
+  animation-delay: calc(3s * 1);
+}
+
+.info__card:nth-child(4) {
+  animation-delay: calc(3s * 2);
+}
+
+.info__card:nth-child(5) {
+  animation-delay: calc(3s * 3);
+}
+
+.info__card:last-child {
+  animation-delay: calc(-3s * 2);
+}
+
+@keyframes vertical {
+  0% {
+    transform: translateY(100%) scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
+  3%,
+  16.6666666667% {
+    transform: translateY(100%) scale(0.7);
+    opacity: 0.4;
+    visibility: visible;
+  }
+  19.6666666667%,
+  33.3333333333% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+  36.3333333333%,
+  50% {
+    transform: translateY(-100%) scale(0.7);
+    opacity: 0.4;
+    visibility: visible;
+  }
+  53% {
+    transform: translateY(-100%) scale(0.5);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(-100%) scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
 }
