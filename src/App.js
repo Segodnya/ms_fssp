@@ -5,6 +5,7 @@ import { Team } from "./components/Team/Team";
 import { Invitation } from "./components/Invitation/Invitation";
 import "./App.css";
 
+// @TODO: Добавить компонент Header, который отображается на всех экранах, кроме первого
 export function App() {
   return (
     <div className="app">

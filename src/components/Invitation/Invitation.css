@@ -1,6 +1,7 @@
 .invitation {
-  min-height: 100vh;
+  min-height: 100dvh;
   background-color: var(--constant-grey);
+  padding: 10px;
 }
 
 .invitation__title {
@@ -17,7 +18,6 @@
   text-align: center;
 }
 
-.invitation__span {
-  color: var(--constant-accent);
-  font-weight: 700;
+.invitation__row {
+  gap: 10px;
 }

@@ -1,5 +1,6 @@
 import "./Team.css";
 
+// @TODO: Добавить настоящие фотографии
 export function Team() {
   return (
     <section className="flex team">

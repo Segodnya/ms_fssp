@@ -1,5 +1,5 @@
 .info {
-  min-height: 100vh;
+  min-height: 100dvh;
   padding: 10px;
   gap: 16px;
   box-sizing: border-box;
@@ -21,7 +21,7 @@
 
 .swiper {
   width: 100%;
-  height: calc(100vh - 400px);
+  height: calc(100dvh - 400px);
   padding: 8px;
   box-sizing: border-box;
 }

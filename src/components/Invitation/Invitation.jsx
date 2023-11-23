@@ -1,3 +1,4 @@
+import { GlobalOutlined, MailOutlined, PhoneOutlined } from "@ant-design/icons";
 import "./Invitation.css";
 
 export function Invitation() {
@@ -7,14 +8,22 @@ export function Invitation() {
       <p className="invitation__p">Присоединяйся к нашей команде :)</p>
       <p className="invitation__p">
         По вопросу вступления всегда можно обратиться в отдел профессиональной
-        подготовки и воспитательной работы (Красногорск, ул. Речная, д. 8, каб.
-        903)
+        подготовки и воспитательной работы:
       </p>
-      <p className="invitation__p">Телефоны ВТС 1298, 1299</p>
-      <p className="invitation__p">
-        Или напиши нам на почту -{" "}
-        <span className="invitation__span">ooppvr@r50.fssp.gov.ru</span>
-      </p>
+      <ul className="invitation__contacts">
+        <li className="flex-col invitation__row">
+          <GlobalOutlined />
+          <p>Красногорск, ул. Речная, д. 8, каб. 903</p>
+        </li>
+        <li className="flex-col invitation__row">
+          <PhoneOutlined />
+          <phone>8 (498) 568-98-30 (доб. 1298, 1299)</phone>
+        </li>
+        <li className="flex-col invitation__row">
+          <MailOutlined />
+          <p>ooppvr@r50.fssp.gov.ru</p>
+        </li>
+      </ul>
     </section>
   );
 }

@@ -1,5 +1,5 @@
 .team {
-  min-height: 100vh;
+  min-height: 100dvh;
   color: var(--constant-grey);
   gap: 20px;
 }

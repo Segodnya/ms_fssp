@@ -6,6 +6,7 @@ export function News() {
   return (
     <section className="flex news">
       <h2 className="news__title">Последние события</h2>
+      {/* @TODO: Возможность раскрывать полный текст новости */}
       <article className="news__card">
         <img className="news__card-image" src={photo1} alt="" />
         <h3 className="news__card-title">
