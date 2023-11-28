@@ -7,7 +7,7 @@ export function News() {
   return (
     <section className="flex news">
       <h2 className="news__title">Последние события</h2>
-      {articles.map((article) => (
+      {articles.reverse().map((article) => (
         <Article
           key={article.id}
           photo={article.photo}
