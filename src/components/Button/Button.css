@@ -2,9 +2,16 @@
   padding: 16px;
   border: 2px solid var(--constant-grey);
   border-radius: 16px;
-  background: none;
+  background-color: transparent;
   box-shadow: 0 0 8px 8px var(--constant-white-alpha12);
   color: var(--constant-grey);
   font-size: 16px;
   font-weight: 900;
+  transition: all 0.3s ease-in;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--constant-grey);
+  color: var(--constant-accent);
 }

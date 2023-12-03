@@ -1,9 +1,8 @@
 .news__card {
   width: 100%;
   max-width: 360px;
-  border: 1px solid var(--constant-font);
-  box-shadow: 0 0 8px 1px var(--constant-accent);
-  border-radius: 0 0 8px 8px;
+  box-shadow: 0 0 8px 8px var(--constant-black-alpha4);
+  border-radius: 0 8px 8px 8px;
 }
 
 .news__card-image-wrapper {
