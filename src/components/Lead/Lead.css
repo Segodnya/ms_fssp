@@ -28,6 +28,18 @@
   z-index: 2;
 }
 
+.lead__button {
+  border: 2px solid var(--constant-grey);
+  background-color: transparent;
+  box-shadow: 0 0 8px 8px var(--constant-white-alpha12);
+  color: var(--constant-grey);
+}
+
+.lead__button:hover {
+  background-color: var(--constant-grey);
+  color: var(--constant-accent);
+}
+
 @keyframes slideLeft {
   0% {
     transform: rotate(-45deg) translateX(30%);

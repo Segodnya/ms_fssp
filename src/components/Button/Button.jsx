@@ -1,8 +1,11 @@
+import classNames from "classnames";
 import "./Button.css";
 
-export function Button({ children, onClick }) {
+export function Button({ className, children, onClick }) {
+  const styles = classNames(className, "flex", "button");
+
   return (
-    <button className="flex button" onClick={onClick}>
+    <button className={styles} onClick={onClick}>
       {children}
     </button>
   );

@@ -19,7 +19,9 @@ export function Lead() {
       </h1>
       <p className="lead__p">Создаем будущее вместе!</p>
       <div className="lead__button-container">
-        <Button onClick={scrollToSection}>Узнать подробности</Button>
+        <Button className="lead__button" onClick={scrollToSection}>
+          Узнать подробности
+        </Button>
       </div>
     </section>
   );
