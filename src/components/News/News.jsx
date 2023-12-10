@@ -21,6 +21,7 @@ export function News() {
         <Article
           key={article.id}
           photo={article.photo}
+          date={article.date}
           title={article.title}
           content={article.content}
         />

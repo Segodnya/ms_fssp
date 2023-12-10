@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./Article.css";
 
 export const Article = (props) => {
-  const { photo, title, content } = props;
+  const { photo, date, title, content } = props;
   const [showFullText, setShowFullText] = useState(false);
 
   const toggleFullText = () => {
@@ -35,12 +35,15 @@ export const Article = (props) => {
       {!showFullText && (
         <p className="news__card-p news__card-p_highlighted">Читать далее</p>
       )}
+
+      {showFullText && <p className="news__card-date">{date}</p>}
     </article>
   );
 };
 
 Article.propTypes = {
   photo: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
 };
