@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ms_fssp/static/css/main.1211ae33.css",
+    "main.css": "/ms_fssp/static/css/main.8fb06387.css",
     "main.js": "/ms_fssp/static/js/main.2911f514.js",
     "static/media/2289_SkVNQSBGQU1PIDEwMjgtMTEx.jpg": "/ms_fssp/static/media/2289_SkVNQSBGQU1PIDEwMjgtMTEx.0b8f08fcc7d62c4004ca.jpg",
     "static/media/2024-02-01 22.17.21.jpg": "/ms_fssp/static/media/2024-02-01 22.17.21.fd2abc95cf7629c72e23.jpg",
@@ -21,13 +21,13 @@
     "static/media/frame.png": "/ms_fssp/static/media/frame.1f94719e3981faed9811.png",
     "static/media/2023-11-28 14.49.20.jpg": "/ms_fssp/static/media/2023-11-28 14.49.20.3ea868c54d3b6774df76.jpg",
     "static/media/bg-eagle.png": "/ms_fssp/static/media/bg-eagle.7df3d7f95ed6b9d3fe7e.png",
-    "static/media/businessman-icon-image-male-avatar-profile-vector-glasses-beard-hairstyle-179728610.webp": "/ms_fssp/static/media/businessman-icon-image-male-avatar-profile-vector-glasses-beard-hairstyle-179728610.1a483d63dae75f2b4a54.webp",
+    "static/media/2024-02-23 13.14.15.jpg": "/ms_fssp/static/media/2024-02-23 13.14.15.f3ef46d33c1ded1984d9.jpg",
     "index.html": "/ms_fssp/index.html",
-    "main.1211ae33.css.map": "/ms_fssp/static/css/main.1211ae33.css.map",
+    "main.8fb06387.css.map": "/ms_fssp/static/css/main.8fb06387.css.map",
     "main.2911f514.js.map": "/ms_fssp/static/js/main.2911f514.js.map"
   },
   "entrypoints": [
-    "static/css/main.1211ae33.css",
+    "static/css/main.8fb06387.css",
     "static/js/main.2911f514.js"
   ]
 }
