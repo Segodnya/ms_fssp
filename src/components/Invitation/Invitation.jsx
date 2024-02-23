@@ -1,4 +1,5 @@
 import { GlobalOutlined, MailOutlined, PhoneOutlined } from "@ant-design/icons";
+import qr from "../../assets/images/frame.png"
 import "./Invitation.css";
 
 export function Invitation() {
@@ -24,6 +25,7 @@ export function Invitation() {
           <p>ooppvr@r50.fssp.gov.ru</p>
         </li>
       </ul>
+      <img src={qr} alt='QR Code' className='invitation__qr' />
     </section>
   );
 }

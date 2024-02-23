@@ -21,3 +21,11 @@
 .invitation__row {
   gap: 10px;
 }
+
+.invitation__qr {
+  margin-top: 20px;
+  display: block;
+  object-fit: cover;
+  width: 240px;
+  height: 240px;
+}
