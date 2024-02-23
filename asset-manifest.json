@@ -1,30 +1,33 @@
 {
   "files": {
-    "main.css": "/ms_fssp/static/css/main.0a48f6e6.css",
-    "main.js": "/ms_fssp/static/js/main.aa4f9d18.js",
+    "main.css": "/ms_fssp/static/css/main.1211ae33.css",
+    "main.js": "/ms_fssp/static/js/main.2911f514.js",
     "static/media/2289_SkVNQSBGQU1PIDEwMjgtMTEx.jpg": "/ms_fssp/static/media/2289_SkVNQSBGQU1PIDEwMjgtMTEx.0b8f08fcc7d62c4004ca.jpg",
     "static/media/2024-02-01 22.17.21.jpg": "/ms_fssp/static/media/2024-02-01 22.17.21.fd2abc95cf7629c72e23.jpg",
     "static/media/2023-12-22 07.18.39.jpg": "/ms_fssp/static/media/2023-12-22 07.18.39.f2b68f5bcf32529fd987.jpg",
     "static/media/2023-12-03 18.54.31.jpg": "/ms_fssp/static/media/2023-12-03 18.54.31.b9b32bb78bbcbfc6dbd0.jpg",
+    "static/media/2024-02-23 10.16.31.jpg": "/ms_fssp/static/media/2024-02-23 10.16.31.4c2211e9ad4e28e020ed.jpg",
     "static/media/2024-01-20 12.30.55.jpg": "/ms_fssp/static/media/2024-01-20 12.30.55.faa1e280d9c22da2ceac.jpg",
     "static/media/2023-12-10 12.06.34.jpg": "/ms_fssp/static/media/2023-12-10 12.06.34.793f8a3d0eb1f84c4f6a.jpg",
     "static/media/2024-01-26 12.03.50.jpg": "/ms_fssp/static/media/2024-01-26 12.03.50.7cfd83f1144925d41ceb.jpg",
     "static/media/2024-01-17 13.56.19.jpg": "/ms_fssp/static/media/2024-01-17 13.56.19.2ebd4296e8bd5fdd92c1.jpg",
+    "static/media/2024-02-23 10.20.26.jpg": "/ms_fssp/static/media/2024-02-23 10.20.26.5faba6d90e76a110fa6d.jpg",
     "static/media/2023-12-12 05.12.07.jpg": "/ms_fssp/static/media/2023-12-12 05.12.07.ac73dcf10331bfb246eb.jpg",
     "static/media/2023-11-23 13.31.46.jpg": "/ms_fssp/static/media/2023-11-23 13.31.46.480c8e8717084cec0299.jpg",
     "static/media/2023-11-28 14.49.31.jpg": "/ms_fssp/static/media/2023-11-28 14.49.31.d90e8087826bc663c8c2.jpg",
     "static/media/2023-11-23 13.18.52.jpg": "/ms_fssp/static/media/2023-11-23 13.18.52.2561daacc509c50018e9.jpg",
     "static/media/2023-12-10 12.06.03.jpg": "/ms_fssp/static/media/2023-12-10 12.06.03.46ce6b1a601658d238bb.jpg",
     "static/media/2023-12-20 07.36.49.jpg": "/ms_fssp/static/media/2023-12-20 07.36.49.4547961cafe4ed316344.jpg",
+    "static/media/frame.png": "/ms_fssp/static/media/frame.1f94719e3981faed9811.png",
     "static/media/2023-11-28 14.49.20.jpg": "/ms_fssp/static/media/2023-11-28 14.49.20.3ea868c54d3b6774df76.jpg",
     "static/media/bg-eagle.png": "/ms_fssp/static/media/bg-eagle.7df3d7f95ed6b9d3fe7e.png",
     "static/media/businessman-icon-image-male-avatar-profile-vector-glasses-beard-hairstyle-179728610.webp": "/ms_fssp/static/media/businessman-icon-image-male-avatar-profile-vector-glasses-beard-hairstyle-179728610.1a483d63dae75f2b4a54.webp",
     "index.html": "/ms_fssp/index.html",
-    "main.0a48f6e6.css.map": "/ms_fssp/static/css/main.0a48f6e6.css.map",
-    "main.aa4f9d18.js.map": "/ms_fssp/static/js/main.aa4f9d18.js.map"
+    "main.1211ae33.css.map": "/ms_fssp/static/css/main.1211ae33.css.map",
+    "main.2911f514.js.map": "/ms_fssp/static/js/main.2911f514.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a48f6e6.css",
-    "static/js/main.aa4f9d18.js"
+    "static/css/main.1211ae33.css",
+    "static/js/main.2911f514.js"
   ]
 }
