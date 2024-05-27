@@ -1,4 +1,4 @@
-import LogRocket from 'logrocket';
+import { FullStory, init } from "@fullstory/browser";
 import { Lead } from "./components/Lead/Lead";
 import { Info } from "./components/Info/Info";
 import { News } from "./components/News/News";
@@ -8,9 +8,13 @@ import "./App.css";
 
 // @TODO: Добавить компонент Header, который отображается на всех экранах, кроме первого
 export function App() {
-  LogRocket.init('pxfeie/kommo-test');
-  LogRocket.identify('ms', {
-    name: 'Example Person',
+  // This is an example script - don't forget to change it!
+  init("setIdentity", {
+    uid: 1,
+    properties: {
+      displayName: "<DISPLAY_NAME_HERE>",
+      email: "<EMAIL_HERE>",
+    },
   });
 
   return (
